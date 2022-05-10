@@ -47,7 +47,7 @@ team_t team = {
 // Basic constants and macros
 #define WSIZE 4 // word and header/footer size (bytes)
 #define DSIZE 8 // double word size (bytes)
-#define CHUNKSIZE (1<<12) // extend heap by this amount (bytes)
+#define CHUNKSIZE (1<<12) // extend heap by this amount (bytes) + this size reduce = 1<<10 → 84score
 
 #define MAX(x, y) ((x)>(y) ? (x):(y))
 
